@@ -1,0 +1,54 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.image-container img {
+    opacity: 0.5; /* Adjust transparency */
+    max-width: 100%; /* Make sure the image is responsive */
+    height: auto;
+}
+
+nav{
+    width: 560px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(30, 30, 30);
+    padding: 20px 20px;
+}
+.school-name{
+    color: white;
+    display: inline;
+    margin: 0;
+    font-family: Verdana;
+    position: relative;
+    top: 33px;
+    left: 10px;
+}
+.link{
+    margin: 0;
+    top: 100ch;
+    display: block;
+    color: white;
+    padding:10px 10px;
+    text-decoration: none;
+    font-family: verdana;
+    transition: 0.2s;
+    position: relative;
+    top: 70px;
+
+}
+
+.link:hover{
+    background-color: white;
+    color: black;
+
+}
